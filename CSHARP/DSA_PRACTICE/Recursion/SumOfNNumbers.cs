@@ -1,0 +1,35 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace DSA_PRACTICE.Recursion
+{
+    internal class SumOfNNumbers
+    {
+
+        public int SumOfNumbers(int n)
+        {
+
+            if (n > 0)
+                return SumOfNumbers(n - 1) + n;
+            return 0;
+        }
+
+        public string Main()
+        {
+            //var n = 5;
+            Console.WriteLine($"------------------------------------");
+            Console.WriteLine($"Enter 'N'");
+
+            var n = Convert.ToInt32(Console.ReadLine());
+
+            var res = SumOfNumbers(n);
+
+            Console.WriteLine($"Sum of {n} numbers is: {res}");
+            return res.ToString();
+
+        }
+    }
+}

@@ -1,0 +1,14 @@
+E:\Projects\DSA Practice\CSHARP\DSA_PRACTICE\bin\Debug\net8.0\DSA_PRACTICE.exe
+E:\Projects\DSA Practice\CSHARP\DSA_PRACTICE\bin\Debug\net8.0\DSA_PRACTICE.deps.json
+E:\Projects\DSA Practice\CSHARP\DSA_PRACTICE\bin\Debug\net8.0\DSA_PRACTICE.runtimeconfig.json
+E:\Projects\DSA Practice\CSHARP\DSA_PRACTICE\bin\Debug\net8.0\DSA_PRACTICE.dll
+E:\Projects\DSA Practice\CSHARP\DSA_PRACTICE\bin\Debug\net8.0\DSA_PRACTICE.pdb
+E:\Projects\DSA Practice\CSHARP\DSA_PRACTICE\obj\Debug\net8.0\DSA_PRACTICE.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\DSA Practice\CSHARP\DSA_PRACTICE\obj\Debug\net8.0\DSA_PRACTICE.AssemblyInfoInputs.cache
+E:\Projects\DSA Practice\CSHARP\DSA_PRACTICE\obj\Debug\net8.0\DSA_PRACTICE.AssemblyInfo.cs
+E:\Projects\DSA Practice\CSHARP\DSA_PRACTICE\obj\Debug\net8.0\DSA_PRACTICE.csproj.CoreCompileInputs.cache
+E:\Projects\DSA Practice\CSHARP\DSA_PRACTICE\obj\Debug\net8.0\DSA_PRACTICE.dll
+E:\Projects\DSA Practice\CSHARP\DSA_PRACTICE\obj\Debug\net8.0\refint\DSA_PRACTICE.dll
+E:\Projects\DSA Practice\CSHARP\DSA_PRACTICE\obj\Debug\net8.0\DSA_PRACTICE.pdb
+E:\Projects\DSA Practice\CSHARP\DSA_PRACTICE\obj\Debug\net8.0\DSA_PRACTICE.genruntimeconfig.cache
+E:\Projects\DSA Practice\CSHARP\DSA_PRACTICE\obj\Debug\net8.0\ref\DSA_PRACTICE.dll
