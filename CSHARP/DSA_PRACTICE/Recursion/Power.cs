@@ -6,27 +6,26 @@ using System.Threading.Tasks;
 
 namespace DSA_PRACTICE.Recursion
 {
-    internal class SumOfNNumbers
+    internal class Power
     {
-
-        public int SumOfNumbers(int n)
+        public int pow(int m, int n)
         {
-
             if (n > 0)
-                return SumOfNumbers(n - 1) + n;
-            return 0;
+                return pow(m, n - 1) * m;
+            return 1;
         }
-
         public string Main()
         {
             Console.WriteLine($"------------------------------------");
-            Console.WriteLine($"Enter 'N'");
+            Console.WriteLine($"Enter 'M'");
+            var m = Convert.ToInt32(Console.ReadLine());
 
+            Console.WriteLine($"Enter 'N'");
             var n = Convert.ToInt32(Console.ReadLine());
 
-            var res = SumOfNumbers(n);
+            var res = pow(m, n);
 
-            Console.WriteLine($"Sum of {n} numbers is: {res}");
+            Console.WriteLine($"{m} power {n} is: {res}");
             return res.ToString();
 
         }
