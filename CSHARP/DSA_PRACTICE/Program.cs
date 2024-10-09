@@ -12,13 +12,14 @@ foreach (var program in programs)
 }
 Console.WriteLine("-------------------------------");
 var inputProgram = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine(programs[inputProgram]);
 var output = inputProgram switch
 {
     1 => new SumOfNNumbers().Main(),
     2 => new Factorial().Main(),
-    3 => new Power().Main()
+    3 => new Power().Main(),
+    _ => "Not Found"
 };
+Console.WriteLine($"res: {output}");
 Console.ReadLine();
 
 static Dictionary<int, string> GetPrograms()
@@ -29,5 +30,6 @@ static Dictionary<int, string> GetPrograms()
     programs.Add(1, "Sum of 'N' Natural Numbers - Recursion");
     programs.Add(2, "Factorial - Recursion");
     programs.Add(3, "Power - Recursion");
+    programs.Add(4, "Taylor Series - Recursion");
     return programs;
 }
