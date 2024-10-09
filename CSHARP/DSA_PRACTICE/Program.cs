@@ -12,14 +12,16 @@ foreach (var program in programs)
 }
 Console.WriteLine("-------------------------------");
 var inputProgram = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine(programs.ContainsKey(inputProgram) ? programs[inputProgram] : "Not Found");
 var output = inputProgram switch
 {
     1 => new SumOfNNumbers().Main(),
     2 => new Factorial().Main(),
     3 => new Power().Main(),
+    4 => new TaylorSeries().Main(),
+    5 => new FibanocciSeries().Main(),
     _ => "Not Found"
 };
-Console.WriteLine($"res: {output}");
 Console.ReadLine();
 
 static Dictionary<int, string> GetPrograms()
@@ -31,5 +33,6 @@ static Dictionary<int, string> GetPrograms()
     programs.Add(2, "Factorial - Recursion");
     programs.Add(3, "Power - Recursion");
     programs.Add(4, "Taylor Series - Recursion");
+    programs.Add(5, "Fibanocci - Recursion");
     return programs;
 }
