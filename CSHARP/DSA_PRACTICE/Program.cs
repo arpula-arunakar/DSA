@@ -20,6 +20,7 @@ var output = inputProgram switch
     3 => new Power().Main(),
     4 => new TaylorSeries().Main(),
     5 => new FibanocciSeries().Main(),
+    6 => new nCr().Main(),
     _ => "Not Found"
 };
 Console.ReadLine();
@@ -34,5 +35,6 @@ static Dictionary<int, string> GetPrograms()
     programs.Add(3, "Power - Recursion");
     programs.Add(4, "Taylor Series - Recursion");
     programs.Add(5, "Fibanocci - Recursion");
+    programs.Add(6, "nCr - Recursion");
     return programs;
 }
