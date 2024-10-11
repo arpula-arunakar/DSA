@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DSA_CSHARP", "DSA_CSHARP\DSA_CSHARP.csproj", "{9E42DDC8-9DB5-43DF-8D02-86C8DE21AA60}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "DSA_PYTHON", "DSA_PYTHON\DSA_PYTHON.pyproj", "{16B907FA-9A3D-4CB1-86E0-8E5F3B65DE66}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E42DDC8-9DB5-43DF-8D02-86C8DE21AA60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E42DDC8-9DB5-43DF-8D02-86C8DE21AA60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E42DDC8-9DB5-43DF-8D02-86C8DE21AA60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E42DDC8-9DB5-43DF-8D02-86C8DE21AA60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16B907FA-9A3D-4CB1-86E0-8E5F3B65DE66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16B907FA-9A3D-4CB1-86E0-8E5F3B65DE66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {969606B9-BBF4-4DA4-B434-184234C0F994}
+	EndGlobalSection
+EndGlobal
