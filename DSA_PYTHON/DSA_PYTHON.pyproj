@@ -28,6 +28,7 @@
     <Compile Include="Recursion\Power.py" />
     <Compile Include="Recursion\SumOfNumbers.py" />
     <Compile Include="Recursion\TaylorSeries.py" />
+    <Compile Include="Recursion\TowerOfHanoi.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Recursion\" />

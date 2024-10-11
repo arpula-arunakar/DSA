@@ -6,6 +6,7 @@ from Recursion.nCr import NCR
 from Recursion.Power import Power
 from Recursion.SumOfNumbers import SumOfNumbers
 from Recursion.TaylorSeries import Exponential
+from Recursion.TowerOfHanoi import TOH
 
 def get_programs():
     return {
@@ -14,7 +15,9 @@ def get_programs():
         3: ("Power - Recursion", Power),
         4: ("Taylor Series - Recursion", Exponential),
         5: ("Fibonacci - Recursion", FibanocciSeries),
-        6: ("nCr - Recursion", NCR)
+        6: ("nCr - Recursion", NCR),
+        7: ("Tower Of Hanoi - Recursion", TOH),
+
     }
 
 def main():
