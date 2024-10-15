@@ -21,6 +21,7 @@ var output = inputProgram switch
     6 => new nCr().Main(),
     7 => new TowerOfHanoi().Main(),
     8 => new LinearSearch().Main(),
+    9 => new BinarySearch().Main(),
     _ => "Not Found"
 };
 Console.ReadLine();
@@ -38,5 +39,6 @@ static Dictionary<int, string> GetPrograms()
     programs.Add(6, "nCr - Recursion");
     programs.Add(7, "Tower Of Hanoi - Recursion");
     programs.Add(8, "Linear Search");
+    programs.Add(9, "Binary Search");
     return programs;
 }

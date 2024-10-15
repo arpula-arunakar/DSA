@@ -1,0 +1,21 @@
+﻿
+Insert item in an array at a position where it fits.
+
+[4,8,12,13,16,22,25,26,28, , ]
+Insert 18 between 16 and 22
+
+
+int x=18
+i=array.Length-1
+
+while(array[i]<x){
+	array[i+1]=array[i]
+	i--
+}
+array[i+1]=x
+----------------------------------------------------------------------------------------
+
+
+
+
+

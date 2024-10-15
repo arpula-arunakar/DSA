@@ -29,6 +29,7 @@
     <Compile Include="Recursion\SumOfNumbers.py" />
     <Compile Include="Recursion\TaylorSeries.py" />
     <Compile Include="Recursion\TowerOfHanoi.py" />
+    <Compile Include="Search\BinarySearch.py" />
     <Compile Include="Search\LinearSearch.py" />
   </ItemGroup>
   <ItemGroup>

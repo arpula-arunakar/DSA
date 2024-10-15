@@ -8,6 +8,7 @@ from Recursion.SumOfNumbers import SumOfNumbers
 from Recursion.TaylorSeries import Exponential
 from Recursion.TowerOfHanoi import TowerOfHanoi
 from Search.LinearSearch import LinearSearch
+from Search.BinarySearch import BinarySearch
 
 def get_programs():
     return {
@@ -18,7 +19,8 @@ def get_programs():
         5: ("Fibonacci - Recursion", FibanocciSeries),
         6: ("nCr - Recursion", NCR),
         7: ("Tower Of Hanoi - Recursion", TowerOfHanoi),
-        8: ("Linear Search", LinearSearch)
+        8: ("Linear Search", LinearSearch),
+        9: ("Binary Search", BinarySearch)
     }
 
 def main():
