@@ -1,8 +1,7 @@
 ﻿using DSA_CSHARP.Recursion;
 
-Console.WriteLine("Hello, World!");
 var programs = GetPrograms();
-Console.WriteLine("Select program to run");
+Console.WriteLine("Select the program to run");
 Console.WriteLine("-------------------------------");
 foreach (var program in programs)
 {

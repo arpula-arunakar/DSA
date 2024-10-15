@@ -28,7 +28,7 @@ def main():
     for key, (description, _) in programs.items():
         print(f"{key}. {description}")
     print("-------------------------------")
-    input_program = int(input("Enter the number of the program: "))
+    input_program = int(input("Select the program to run: "))
     
     program = programs.get(input_program)
     if program:
