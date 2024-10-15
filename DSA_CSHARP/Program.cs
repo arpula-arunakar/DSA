@@ -1,4 +1,5 @@
 ﻿using DSA_CSHARP.Recursion;
+using DSA_CSHARP.Search;
 
 var programs = GetPrograms();
 Console.WriteLine("Select the program to run");
@@ -19,6 +20,7 @@ var output = inputProgram switch
     5 => new FibanocciSeries().Main(),
     6 => new nCr().Main(),
     7 => new TowerOfHanoi().Main(),
+    8 => new LinearSearch().Main(),
     _ => "Not Found"
 };
 Console.ReadLine();
@@ -35,5 +37,6 @@ static Dictionary<int, string> GetPrograms()
     programs.Add(5, "Fibanocci - Recursion");
     programs.Add(6, "nCr - Recursion");
     programs.Add(7, "Tower Of Hanoi - Recursion");
+    programs.Add(8, "Linear Search");
     return programs;
 }

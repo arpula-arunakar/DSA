@@ -7,6 +7,7 @@ from Recursion.Power import Power
 from Recursion.SumOfNumbers import SumOfNumbers
 from Recursion.TaylorSeries import Exponential
 from Recursion.TowerOfHanoi import TowerOfHanoi
+from Search.LinearSearch import LinearSearch
 
 def get_programs():
     return {
@@ -17,12 +18,11 @@ def get_programs():
         5: ("Fibonacci - Recursion", FibanocciSeries),
         6: ("nCr - Recursion", NCR),
         7: ("Tower Of Hanoi - Recursion", TowerOfHanoi),
-
+        8: ("Linear Search", LinearSearch)
     }
 
 def main():
     programs = get_programs()
-    print("Hello, World!")
     print("Select program to run")
     print("-------------------------------")
     for key, (description, _) in programs.items():

@@ -29,8 +29,10 @@
     <Compile Include="Recursion\SumOfNumbers.py" />
     <Compile Include="Recursion\TaylorSeries.py" />
     <Compile Include="Recursion\TowerOfHanoi.py" />
+    <Compile Include="Search\LinearSearch.py" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Search\" />
     <Folder Include="Recursion\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
