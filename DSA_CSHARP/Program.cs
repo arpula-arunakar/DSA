@@ -1,4 +1,5 @@
-﻿using DSA_CSHARP.Recursion;
+﻿using DSA_CSHARP.CodeExercises;
+using DSA_CSHARP.Recursion;
 using DSA_CSHARP.Search;
 
 var programs = GetPrograms();
@@ -22,6 +23,9 @@ var output = inputProgram switch
     7 => new TowerOfHanoi().Main(),
     8 => new LinearSearch().Main(),
     9 => new BinarySearch().Main(),
+    10 => new FindMissingElement().Main(),
+    11 => new FindMissingElements().Main(),
+    12 => new FindDuplicatesInSortedArray().Main(),
     _ => "Not Found"
 };
 Console.ReadLine();
@@ -40,5 +44,8 @@ static Dictionary<int, string> GetPrograms()
     programs.Add(7, "Tower Of Hanoi - Recursion");
     programs.Add(8, "Linear Search");
     programs.Add(9, "Binary Search");
+    programs.Add(10, "Find Missing element(single)");
+    programs.Add(11, "Find Missing elements(multiple)");
+    programs.Add(12, "Find Duplicates In Sorted Array");
     return programs;
 }

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,6 +21,20 @@ internal class BinarySearch
                 right = mid - 1;
             else
                 left = mid + 1;
+        }
+        return -1;
+    }
+    public int RecursiveBinaryS(int[] array, int left, int right, int target)
+    {
+        if (left <= right)
+        {
+            var mid = (left + right) / 2;
+            if (array[mid] == target)
+                return mid;
+            else if (target < array[mid])
+                RecursiveBinaryS(array, left, mid - 1, target);
+            else
+                RecursiveBinaryS(array, mid + 1, right, target);
         }
         return -1;
     }
