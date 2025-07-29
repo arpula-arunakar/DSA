@@ -7,6 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DSA_CSHARP", "DSA_CSHARP\DS
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "DSA_PYTHON", "DSA_PYTHON\DSA_PYTHON.pyproj", "{16B907FA-9A3D-4CB1-86E0-8E5F3B65DE66}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notes", "Notes", "{5C350622-520C-4464-8C77-8970F7025491}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\Arun\OneDrive\Desktop\taylorseries_formula.png = C:\Users\Arun\OneDrive\Desktop\taylorseries_formula.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
