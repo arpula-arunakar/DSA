@@ -25,6 +25,13 @@
     <Compile Include="CodeExercises\FindMissingElement.py" />
     <Compile Include="CodeExercises\FindMissingElements.py" />
     <Compile Include="Main.py" />
+    <Compile Include="Matrices\BandMatrix.py" />
+    <Compile Include="Matrices\DiagonalMatrix.py" />
+    <Compile Include="Matrices\LowerTriangularMatrix.py" />
+    <Compile Include="Matrices\SymmetricMatrix.py" />
+    <Compile Include="Matrices\ToeplitzMatrix.py" />
+    <Compile Include="Matrices\TridiagonalMatrix.py" />
+    <Compile Include="Matrices\UpperTriangularMatrix.py" />
     <Compile Include="Recursion\Factorial.py" />
     <Compile Include="Recursion\FibanocciSeries.py" />
     <Compile Include="Recursion\nCr.py" />
@@ -37,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="CodeExercises\" />
+    <Folder Include="Matrices\" />
     <Folder Include="Search\" />
     <Folder Include="Recursion\" />
   </ItemGroup>

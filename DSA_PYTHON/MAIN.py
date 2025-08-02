@@ -11,6 +11,13 @@ from Search.BinarySearch import BinarySearch
 from CodeExercises.FindMissingElement import FindMissingElement
 from CodeExercises.FindMissingElements import FindMissingElements
 from CodeExercises.FindDuplicatesInSortedArray import FindDuplicatesInSortedArray
+from Matrices.DiagonalMatrix import DiagonalMatrix
+from Matrices.LowerTriangularMatrix import LowerTriangularMatrix
+from Matrices.UpperTriangularMatrix import UpperTriangularMatrix
+from Matrices.SymmetricMatrix import SymmetricMatrix
+from Matrices.TridiagonalMatrix import TridiagonalMatrix
+from Matrices.BandMatrix import BandMatrix
+from Matrices.ToeplitzMatrix import ToeplitzMatrix
 
 
 def get_programs():
@@ -27,16 +34,34 @@ def get_programs():
         10: ("Find Missing Element(Single)", FindMissingElement),
         11: ("Find Missing Element(Multiple)", FindMissingElements),
         12: ("Find Duplicates(Sorted Array)", FindDuplicatesInSortedArray),
+        13: ("Diagonal Matrix", DiagonalMatrix),
+        14: ("LowerTriangular Matrix", LowerTriangularMatrix),
+        15: ("UpperTriangular Matrix", UpperTriangularMatrix),
+        16: ("Symmetric Matrix", SymmetricMatrix),
+        17: ("Tridiagonal Matrix", TridiagonalMatrix),
+        18: ("Band Matrix", BandMatrix),
+        19: ("Toeplitz Matrix", ToeplitzMatrix),
+
     }
+
+
+def section_dividing_numbers():
+    return {8, 10, 13}
+
+
+def print_empty_Line():
+    print("-------------------------------")
 
 
 def main():
     programs = get_programs()
     print("Select program to run")
-    print("-------------------------------")
+    print_empty_Line()
     for key, (description, _) in programs.items():
+        if key in section_dividing_numbers():
+            print_empty_Line()
         print(f"{key}. {description}")
-    print("-------------------------------")
+    print_empty_Line()
     input_program = int(input("Select the program to run: "))
 
     program = programs.get(input_program)

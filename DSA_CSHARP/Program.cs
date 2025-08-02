@@ -1,15 +1,20 @@
 ﻿using DSA_CSHARP.CodeExercises;
+using DSA_CSHARP.Matrices;
 using DSA_CSHARP.Recursion;
 using DSA_CSHARP.Search;
 
 var programs = GetPrograms();
 Console.WriteLine("Select the program to run");
-Console.WriteLine("-------------------------------");
+PrintEmptyLine();
 foreach (var program in programs)
 {
+    if (SectionDividingNumbers().Any(x => x == program.Key))
+    {
+        PrintEmptyLine();
+    }
     Console.WriteLine($"{program.Key}. {program.Value}");
 }
-Console.WriteLine("-------------------------------");
+PrintEmptyLine();
 var inputProgram = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine(programs.ContainsKey(inputProgram) ? programs[inputProgram] : "Not Found");
 var output = inputProgram switch
@@ -26,9 +31,25 @@ var output = inputProgram switch
     10 => new FindMissingElement().Main(),
     11 => new FindMissingElements().Main(),
     12 => new FindDuplicatesInSortedArray().Main(),
+    13 => new DiagonalMatrix().Main(),
+    14 => new LowerTriangularMatrix().Main(),
+    15 => new UpperTriangularMatrix().Main(),
+    16 => new SymmetricMatrix().Main(),
+    17 => new TridiagonalMatrix().Main(),
+    18 => new BandMatrix().Main(),
+    19 => new ToeplitzMatrix().Main(),
     _ => "Not Found"
 };
 Console.ReadLine();
+
+static void PrintEmptyLine()
+{
+    Console.WriteLine("-------------------------------");
+}
+static List<int> SectionDividingNumbers()
+{
+    return new List<int>() { 8, 10, 13 };
+}
 
 static Dictionary<int, string> GetPrograms()
 {
@@ -47,5 +68,12 @@ static Dictionary<int, string> GetPrograms()
     programs.Add(10, "Find Missing element(single)");
     programs.Add(11, "Find Missing elements(multiple)");
     programs.Add(12, "Find Duplicates In Sorted Array");
+    programs.Add(13, "Diagonal matrix");
+    programs.Add(14, "Lower Triangular matrix");
+    programs.Add(15, "Upper Triangular matrix");
+    programs.Add(16, "Symmetric Matrix");
+    programs.Add(17, "Tridiagonal Matrix");
+    programs.Add(18, "Band Matrix");
+    programs.Add(19, "Toeplitz Matrix");
     return programs;
 }
