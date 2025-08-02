@@ -38,6 +38,7 @@ var output = inputProgram switch
     17 => new TridiagonalMatrix().Main(),
     18 => new BandMatrix().Main(),
     19 => new ToeplitzMatrix().Main(),
+    20 => new SparseMatrix().Main(),
     _ => "Not Found"
 };
 Console.ReadLine();
@@ -75,5 +76,6 @@ static Dictionary<int, string> GetPrograms()
     programs.Add(17, "Tridiagonal Matrix");
     programs.Add(18, "Band Matrix");
     programs.Add(19, "Toeplitz Matrix");
+    programs.Add(20, "Sparse Matrix");
     return programs;
 }

@@ -18,6 +18,7 @@ from Matrices.SymmetricMatrix import SymmetricMatrix
 from Matrices.TridiagonalMatrix import TridiagonalMatrix
 from Matrices.BandMatrix import BandMatrix
 from Matrices.ToeplitzMatrix import ToeplitzMatrix
+from Matrices.SparseMatrix import SparseMatrix
 
 
 def get_programs():
@@ -41,7 +42,7 @@ def get_programs():
         17: ("Tridiagonal Matrix", TridiagonalMatrix),
         18: ("Band Matrix", BandMatrix),
         19: ("Toeplitz Matrix", ToeplitzMatrix),
-
+        20: ("Sparse Matrix", SparseMatrix),
     }
 
 

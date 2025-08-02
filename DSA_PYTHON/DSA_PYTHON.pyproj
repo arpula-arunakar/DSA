@@ -28,6 +28,7 @@
     <Compile Include="Matrices\BandMatrix.py" />
     <Compile Include="Matrices\DiagonalMatrix.py" />
     <Compile Include="Matrices\LowerTriangularMatrix.py" />
+    <Compile Include="Matrices\SparseMatrix.py" />
     <Compile Include="Matrices\SymmetricMatrix.py" />
     <Compile Include="Matrices\ToeplitzMatrix.py" />
     <Compile Include="Matrices\TridiagonalMatrix.py" />
